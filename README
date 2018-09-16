@@ -1,0 +1,6 @@
+Follow the following steps after cd'ing into the codes folder:
+1) python2 index.py <path_to_xml_file>
+Check the number of the last candle file that's been made. Then, in ind_two.py, change k_file to k_file=folder+'<last_file>.txt'
+2) python2 ind_two.py
+3) python2 search.py
+Then enter whatever your query is, it'll output the top 10 files.
